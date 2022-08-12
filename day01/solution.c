@@ -19,5 +19,6 @@ int main() {
             part2 = step;
         }
     }
-    printf("Part 1: %d\nPart 2: %d", i, part2);
+    fclose(fp);
+    printf("Part 1: %d\nPart 2: %d\n", i, part2);
 }
